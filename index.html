@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Indian Railways</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <input type="number" name="number" id="train_num" maxlength="10" placeholder="check PNR status">
+        <button type="button" id="submit">Submit</button>
+    </div>
+       
+    <div class="train_data">
+        <h2 class="train_name"></h2>
+        <div class="train_num"></div>
+        <hr>
+        <!--Jouney Details-->
+        From : <div class="from"></div>
+        To : <div class="to"></div>
+        Date of Journey: <div class="date"></div>
+        Class : <div class="class"></div>
+
+        <!--Passengers-->
+        <div class="passengers"></div>
+    </div>
+
+
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
